@@ -4,18 +4,26 @@
     <HelloWorld fromfather="send to child" />
     <HelloWorld :fromfather="sendToChild" />
     <ChildToFather @listenChildChange="showChildChange" />
+    <Brothersent />
+    <Brotherget />
     <!--<router-view/>-->
   </div>
 </template>
 
 <script>
+	
 import HelloWorld from './components/HelloWorld'
 import ChildToFather from './components/ChildToFather'
+import Brothersent from './components/Brothersent'
+import Brotherget from './components/Brotherget'
+
 export default {
   name: 'app',
   components:{
   	HelloWorld,
-  	ChildToFather
+  	ChildToFather,
+  	Brothersent,
+  	Brotherget
   },
   data(){
   	return {

@@ -4,6 +4,9 @@
 
 > A Vue.js project
 
+###兄弟组件传值测试
+>学习于：http://www.jb51.net/article/110212.htm
+
 ## Build Setup
 
 ``` bash
